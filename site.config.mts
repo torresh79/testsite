@@ -10,17 +10,17 @@ export interface SocialLink {
 export default {
 	title: 'SR',
 	favicon: 'favicon.ico',
-	owner: 'Hernan Torres',
+	owner: 'Sara Richard',
 	profileImage: 'profile.webp',
 	socialLinks: [
 		{
 			name: 'GitHub',
-			url: 'https://torresh79.github.io/testsite',
+			url: 'https://github.com/rockem/astro-photography-portfolio',
 			icon: Github,
 		} as SocialLink,
 		{
 			name: 'Instagram',
-			url: 'https://www.instagram.com/h.e.r.n.a.n.t',
+			url: 'https://www.instagram.com',
 			icon: Instagram,
 		} as SocialLink,
 	],
