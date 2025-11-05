@@ -1,10 +1,10 @@
 import { defineConfig } from 'astro/config';
-import tailwindcss from '@tailwindcss/vite';
+import tailwindcss from '@torresh79/testsite';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://rockem.github.io',
-	base: 'astro-photography-portfolio',
+	site: 'https://https://torresh79.github.io',
+	base: 'testsite',
 	vite: {
 		plugins: [tailwindcss()],
 	},
