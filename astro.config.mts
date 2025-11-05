@@ -3,7 +3,7 @@ import tailwindcss from '@torresh79/testsite';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://https://torresh79.github.io',
+	site: 'https://torresh79.github.io',
 	base: 'testsite',
 	vite: {
 		plugins: [tailwindcss()],
