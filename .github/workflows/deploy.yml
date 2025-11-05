@@ -13,8 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: withastro/action@v0
+      - uses: actions/checkout@v3
+      - uses: withastro/action@v1
         with:
           deploy_branch: gh-pages
 
@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: Checkout the source repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
