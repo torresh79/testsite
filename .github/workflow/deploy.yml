@@ -15,6 +15,10 @@ jobs:
     steps:
       - name: Checkout the source repository
         uses: actions/checkout@v4
+      
+      - name: Validar YAML
+        run: |
+          find . -name "*.astro" -exec grep -Pzo '(?s)^---.*?---' {} \; | yamllint -
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
