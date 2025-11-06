@@ -18,8 +18,8 @@ jobs:
         uses: actions/checkout@v4 
       - name: Install, build, and upload your site output
         uses: withastro/action@v4
-        with:
-          deploy-branch: gh-pages
+#        with:
+#          deploy-branch: gh-pages
 
   deploy:
     needs: build
