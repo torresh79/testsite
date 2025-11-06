@@ -29,9 +29,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
+      - name: Build Astro site
+        run: npm run build
+      
       - name: Disable Jekyll
         run: echo > dist/.nojekyll
-        
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
