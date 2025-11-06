@@ -24,7 +24,7 @@ export const getStaticPaths = async () => {
   import PhotoGrid from '../../components/PhotoGrid.astro';
 
   const allCollection = {
-    id: '',
+    id: undefined,
     name: 'All',
   };
 const collections = [allCollection, ...(await getCollections())];
