@@ -6,30 +6,29 @@ permissions:
 on:
   push:
     branches:
-      - main
+      - ci
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
 
-      - name: Setup Node
+    steps:
+      - name: Checkout the source repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 23
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build Astro site
+      - name: Build the Astro site
         run: npm run build
 
-      - name: Disable Jekyll
-        run: mkdir -p dist && echo > dist/.nojekyll
-
-      - name: Deploy to GitHub Pages
-        uses: withastro/action@v0
+      - name: Deploy to photography-portfolio repository
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          deploy_branch: gh-pages
+          folder: dist
