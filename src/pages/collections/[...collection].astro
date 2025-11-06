@@ -1,5 +1,8 @@
 ---
 import { getCollections, getImages } from '../../data/imageStore';
+import MainLayout from '../../layouts/MainLayout.astro';
+import PhotoGrid from '../../components/PhotoGrid.astro';
+
 export const getStaticPaths = async () => {
   const collections = await getCollections();
   return [{ id: '' }, ...collections].map((collection) => {
@@ -11,6 +14,7 @@ export const getStaticPaths = async () => {
 ---
 
 <script setup>
+  import { getCollections, getImages } from '../../data/imageStore';
   import MainLayout from '../../layouts/MainLayout.astro';
   import PhotoGrid from '../../components/PhotoGrid.astro';
 
