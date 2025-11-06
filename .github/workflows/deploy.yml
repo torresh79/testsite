@@ -33,7 +33,6 @@ jobs:
       - name: Disable Jekyll
         run: mkdir -p dist && echo > dist/.nojekyll  
 
-      - name: Deploy to photography-portfolio repository
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
