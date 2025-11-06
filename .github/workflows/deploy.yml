@@ -1,5 +1,4 @@
-name: Deploy Astro Site
-
+name: Deploy Astro on pages
 
 permissions:
   contents: write
