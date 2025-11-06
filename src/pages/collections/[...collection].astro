@@ -3,6 +3,11 @@ import { getCollections, getImages } from '../../data/imageStore';
 import MainLayout from '../../layouts/MainLayout.astro';
 import PhotoGrid from '../../components/PhotoGrid.astro';
 
+const allCollection = {
+	id: undefined,
+	name: 'All',
+};
+
 export const getStaticPaths = async () => {
   const collections = await getCollections();
   return [{ id: undefined }, ...collections].map((collection) => {
