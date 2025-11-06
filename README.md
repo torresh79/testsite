@@ -122,5 +122,5 @@ If you find this template useful, please consider giving it a ⭐️ on GitHub!
 
 ## 📧 Contact
 
-- [Instagram](https://www.instagram.com/lesegal/)
-- [GitHub](https://github.com/rockem)
+- [Instagram](https://www.instagram.com/h.e.r.n.a.n.t/)
+- [GitHub](https://github.com/torresh79)
