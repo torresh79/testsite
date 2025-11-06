@@ -8,9 +8,9 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'SR',
+	title: 'HJT',
 	favicon: 'favicon.ico',
-	owner: 'Sara Richard',
+	owner: 'Hernan Torres',
 	profileImage: 'profile.webp',
 	socialLinks: [
 		{
