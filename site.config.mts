@@ -8,7 +8,7 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'HT',
+	title: 'HernanT',
 	favicon: 'favicon.ico',
 	owner: 'Hernan Torres',
 	profileImage: 'profile.webp',
