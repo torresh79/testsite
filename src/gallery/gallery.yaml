@@ -5,6 +5,8 @@ collections:
     name: Travel
   - id: street
     name: Street
+  - id: tocarte
+    name: Tocarte
 images:
   - path: nature/nature-2.jpg
     meta:
@@ -88,3 +90,150 @@ images:
       collections:
         - nature
     exif: {}
+  - path: nature\L1002174.jpg
+    meta:
+      title: L1002174
+      description: ''
+      collections:
+        - nature
+    exif:
+      captureDate: 2025-03-27T10:35:21.000Z
+      fNumber: 8
+      focalLength: 28
+      iso: 100
+      model: LEICA Q3
+      shutterSpeed: 1250
+      lensModel: SUMMILUX 1:1.7/28 ASPH.
+  - path: nature\nature-1.jpg
+    meta:
+      title: Nature 1
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature\nature-10.jpg
+    meta:
+      title: Nature 10
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature\nature-2.jpg
+    meta:
+      title: Nature 2
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature\nature-3.jpg
+    meta:
+      title: Nature 3
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature\nature-5.jpg
+    meta:
+      title: Nature 5
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature\nature-7.jpg
+    meta:
+      title: Nature 7
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: nature\nature-8.jpg
+    meta:
+      title: Nature 8
+      description: ''
+      collections:
+        - nature
+    exif: {}
+  - path: street\stree-1.jpg
+    meta:
+      title: Stree 1
+      description: ''
+      collections:
+        - street
+    exif: {}
+  - path: travel\travel-1.jpg
+    meta:
+      title: Travel 1
+      description: ''
+      collections:
+        - travel
+    exif: {}
+  - path: tocarte\tocarte-1.jpg
+    meta:
+      title: Tocarte 1
+      description: ''
+      collections:
+        - tocarte
+    exif:
+      captureDate: 2023-03-11T19:22:35.000Z
+      fNumber: 6.3
+      focalLength: 50
+      iso: 200
+      model: Canon EOS REBEL T5i
+      shutterSpeed: 125
+      lensModel: EF50mm f/1.8 STM
+  - path: tocarte\tocarte-2.jpg
+    meta:
+      title: Tocarte 2
+      description: ''
+      collections:
+        - tocarte
+    exif:
+      captureDate: 2023-03-11T19:22:35.000Z
+      fNumber: 6.3
+      focalLength: 50
+      iso: 200
+      model: Canon EOS REBEL T5i
+      shutterSpeed: 125
+      lensModel: EF50mm f/1.8 STM
+  - path: tocarte\tocarte-3.jpg
+    meta:
+      title: Tocarte 3
+      description: ''
+      collections:
+        - tocarte
+    exif:
+      captureDate: 2023-03-11T19:30:35.000Z
+      fNumber: 6.3
+      focalLength: 50
+      iso: 200
+      model: Canon EOS REBEL T5i
+      shutterSpeed: 125
+      lensModel: EF50mm f/1.8 STM
+  - path: tocarte\tocarte-4.jpg
+    meta:
+      title: Tocarte 4
+      description: ''
+      collections:
+        - tocarte
+    exif:
+      captureDate: 2023-03-11T19:30:35.000Z
+      fNumber: 6.3
+      focalLength: 50
+      iso: 200
+      model: Canon EOS REBEL T5i
+      shutterSpeed: 125
+      lensModel: EF50mm f/1.8 STM
+  - path: travel\travel-2.jpg
+    meta:
+      title: Travel 2
+      description: ''
+      collections:
+        - travel
+    exif:
+      captureDate: 2023-03-11T19:22:35.000Z
+      fNumber: 6.3
+      focalLength: 50
+      iso: 200
+      model: Canon EOS REBEL T5i
+      shutterSpeed: 125
+      lensModel: EF50mm f/1.8 STM
